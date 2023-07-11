@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="logo.png" type="image/png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order form</title>
+</head>
+<body>
+  <header>
+    <a href="Tut2 Homepage.html">
+      <img src="logo.png" width="100" alt="Store logo">
+    </a>
+    
+    <br>
+    <table style=" width: 100%;">
+        <tr>
+          <td align="center" valign="middle">
+            <h1>Duong Tran's gym store</h1>
+          </td>
+        </tr>
+      </table>
+  </header>
+<center>
+  <nav>
+    <ul>
+     <li style="display: inline;"><a href="#"><fontsize="16">Whey Protein</font></a></li>
+      <li style="display: inline;"><a href="#">BCAA</a></li>
+      <li style="display: inline;"><a href="#">Training equipment</a></li>
+      <li style="display: inline;"><a href="#">Gymwear</a></li>
+      <li style="display: inline;"><a href="#">Autumn Sale</a></li>
+      <li style="display: inline;"><a href="#">Buy Now!</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <img src="showroom image.webp" width="1000" alt="Showroom's picture">
+    </section>
+  
+    <form>
+      <fieldset>
+        <legend>Enter your personal information</legend>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Enter your shipping information</legend>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br><br>
+
+        <label for="district">District:</label>
+        <select id="district" name="district">
+          <option value="">Select a district</option>
+          <option value="1">District 1</option>
+          <option value="2">District 2</option>
+          <option value="3">District 3</option>
+          <!-- Add more district options as needed -->
+        </select><br><br>
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+          <option value="">Select a city</option>
+          <option value="HCMC">Ho Chi Minh City</option>
+          <option value="HN">Hanoi</option>
+          <option value="DN">Da Nang</option>
+          <!-- Add more city options as needed -->
+        </select><br><br>
+
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode"><br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Purchase Options</legend>
+        <label for="product-select">Select product(s):</label>
+        <select id="product-select" name="product" multiple>
+          <option value="real-whey-vitaxstrong">Real whey Vitaxstrong</option>
+          <option value="casein">Casein</option>
+          <option value="bcaa">BCAA</option>
+          <option value="pro-combat-gym-wear">Pro Combat Gym Wear</option>
+          <option value="gym-belt">Gym Belt</option>
+          <option value="gym-gloves">Gym Gloves</option>
+          <option value="mass-gainer">Mass Gainer</option>
+          <option value="omega3">Omega3 Fish Oil</option>
+          <option value="shaker">Shaker</option>
+        </select>
+        <p><strong>Hint:</strong> Use Shift/Ctrl key to select multiple products!</p>
+      </fieldset>
+
+      <br>
+
+      <input type="submit" value="Order Now!">
+    </form>
+</body>
+<footer>
+  <section>
+      <h2>Connect with us</h2>
+      <p>
+        <a href="https://www.facebook.com/duongsiphong" target="_blank"><img src="https://thumbs2.imgbox.com/d6/40/cF7WttCM_t.png" alt="Facebook link" width="80" height="80"></a>
+        <a href="https://www.instagram.com/wheystore.vn/?hl=en" target="_blank"><img src="Instagram_logo_2016.svg.png" alt="Instagram link" width="80" height="80"></a>
+      </p>
+    </section>
+  <section>
+    <h2>Join our latest Wefit competition</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ie7nbEybL6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </section>
+
+  <section>
+    <h2>Our Location</h2>
+    <p>268 Đ. Trần Hưng Đạo, Phường Nguyễn Cư Trinh, Quận 1, Thành phố Hồ Chí Minh 700000</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d0!2d106.6849186!3d10.7592417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1aebf9fbf3%3A0xf4c214f363ba299c!2sC%C3%B4ng%20an%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh!5e0!3m2!1sen!2sus!4vYOUR_MAP_API_KEY" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </section>
+
+</footer>
+</main>
+</center>
+</body>
+</html>
+
+</html>
